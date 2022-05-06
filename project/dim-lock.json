@@ -1,0 +1,16 @@
+{
+  "lockFileVersion": 1,
+  "contents": [
+    {
+      "url": "https://gov-csv-export-public.s3.ap-northeast-1.amazonaws.com/mt_town/mt_town_all.csv.zip",
+      "path": "./data_files/gov-csv-export-public.s3.ap-northeast-1.amazonaws.com/mt_town/mt_town_all.csv.zip",
+      "name": "https://gov-csv-export-public.s3.ap-northeast-1.amazonaws.com/mt_town/mt_town_all.csv.zip",
+      "preprocesses": [
+        "unzip",
+        "encoding-utf-8",
+        "CMD:python preprocesses/divede_all_town.py"
+      ],
+      "lastUpdated": "2022-05-02T05:08:32.600Z"
+    }
+  ]
+}
